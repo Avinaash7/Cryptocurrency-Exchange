@@ -21,7 +21,7 @@ import {
   sellOrderMaking,
   orderMade
 } from './actions'
-import Token from '../abis/token.json'
+import Token from '../abis/Token.json'
 import Exchange from '../abis/Exchange.json'
 import { ETHER_ADDRESS } from '../helpers'
 

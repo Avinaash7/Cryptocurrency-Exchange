@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './Navbar'
 import Content from './Content'
 import Web3 from 'web3'
-import Token from '../abis/token.json'
+import Token from '../abis/Token.json'
 import { connect } from 'react-redux'
 import {
   loadWeb3,

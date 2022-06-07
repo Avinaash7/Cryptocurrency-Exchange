@@ -37,7 +37,7 @@ export const loadWeb3 = async (dispatch) => {
 }
 
 export const loadAccount = async (web3, dispatch) => {
-  const accounts = await web3.eth.getAccounts()
+  const accounts = await web3.eth.requestAccounts()
   const account = await accounts[0]
   if(typeof account !== 'undefined'){
     dispatch(web3AccountLoaded(account))

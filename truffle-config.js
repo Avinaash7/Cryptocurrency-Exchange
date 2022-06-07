@@ -2,8 +2,8 @@ require('babel-register');
 require('babel-polyfill');
 require('dotenv').config();
 const HDWalletProvider = require("@truffle/hdwallet-provider");
-const privateKeys = process.env.PRIVATE_KEYS || ""
-const mnemonicphrase= "parade hurt negative mandate neglect indoor deliver forest above tunnel mule leopard"
+const mnemonicphrase = process.env.MNEMONIC
+const api_key = process.env.INFURA_API_KEY
 
 // const HDWalletProvider = require('@truffle/hdwallet-provider');
 //
@@ -22,7 +22,7 @@ networks: {
     provider: function(){
       return new HDWalletProvider(
         mnemonicphrase,
-        'https://rinkeby.infura.io/v3/74588d050c7b43319cf75dc009aa7a01'
+        api_key
       )
     },
     gas: 5000000,

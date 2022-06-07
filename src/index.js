@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import * as serviceWorker from './serviceWorker'
 import configureStore from './store/configureStore'
 import App from './components/App';
-import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <Provider store={configureStore()}>

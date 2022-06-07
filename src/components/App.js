@@ -9,7 +9,7 @@ import {
   loadToken,
   loadExchange
 } from '../store/interactions'
-import { accountSelector, contractsLoadedSelector } from '../store/selectors'
+import {contractsLoadedSelector } from '../store/selectors'
 
 class App extends Component {
   componentWillMount() {

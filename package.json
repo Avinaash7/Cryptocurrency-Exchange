@@ -8,11 +8,13 @@
     "node": "18.1.0"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "4.6.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^14.2.0",
     "@truffle/hdwallet-provider": "2.0.8",
     "apexcharts": "3.35.3",
+    "autoprefixer": "10.4.5",
     "babel-polyfill": "6.26.0",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-stage-2": "6.24.1",
@@ -26,7 +28,6 @@
     "joi": "^17.6.0",
     "lodash": "4.17.21",
     "moment": "2.29.3",
-    "@openzeppelin/contracts": "4.6.0",
     "react": "^16.8.0",
     "react-apexcharts": "1.4.0",
     "react-bootstrap": "2.4.0",

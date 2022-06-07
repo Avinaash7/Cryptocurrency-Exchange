@@ -5,8 +5,7 @@
   "author": "Avinaash",
   "private": true,
   "engines": {
-    "node": "18.1.0",
-    "npm": "6.0.0"
+    "node": "18.1.0"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
